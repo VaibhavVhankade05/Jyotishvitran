@@ -1,0 +1,46 @@
+/* Navbar.css */
+
+.nav-bg {
+  background-color: #3C2A65;
+}
+
+.brand-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFD766;
+}
+
+.lang-dropdown {
+  width: auto;
+  /* padding: 0.3rem 0.75rem; */
+  font-size: 0.9rem;
+  /* background-color: #fff; */
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.lang-dropdown select {
+  background-color: transparent !important;
+  color: #7753c8;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+}
+
+
+
+/* Base nav link style */
+.navbar .nav-link {
+  transition: color 0.3s ease;
+}
+
+/* On hover: use your desired purple */
+.navbar .nav-link:hover {
+  color: #7753c8;
+}
+
+/* Optional: make active link purple too */
+.navbar .nav-link.active {
+  color: #7753c8;
+}
